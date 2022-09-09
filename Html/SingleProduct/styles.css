@@ -1,0 +1,128 @@
+body {
+  box-sizing: border-box;
+  /* background-color: aqua; */
+  background-color: #f3f5f7;
+}
+.header {
+  /* position: fixed; */
+  height: 110px;
+
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  display: flex;
+}
+.logo-side img {
+  margin-top: 50%;
+}
+nav {
+  align-self: center;
+
+  display: flex;
+  align-items: center;
+  width: auto;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.second-ul {
+  margin-left: 500px;
+}
+li {
+  padding: 20px;
+}
+li a,
+li button,
+a {
+  text-decoration: none;
+  color: #2d2f30;
+  text-transform: uppercase;
+  padding: 3px;
+  transition: all 0.5s;
+  font-family: "Poppins";
+  font-style: bold;
+  font-weight: bolder;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+li a:hover,
+a:hover,
+li button:hover {
+  text-decoration: none;
+  color: #ffff;
+  background-color: royalblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.details {
+  display: flex;
+}
+.imgPreview {
+  margin-top: 200px;
+  background-color: transparent;
+  width: 60%;
+}
+.productDetails {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #d6eef3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 40%;
+}
+button {
+  border-radius: 8px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140.5%;
+  letter-spacing: 0.08em;
+}
+
+.prod-detail {
+  display: flex;
+  justify-content: space-around;
+}
+.samples {
+  display: flex;
+}
+.reviews {
+  margin-top: 80px;
+}
+.single-client {
+  width: 400px;
+}
+.footer {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.footer-container {
+  margin: 0 auto;
+  padding: 2px;
+  margin-top: 50px;
+  width: 500px;
+}
+.media {
+  margin: 15px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+button {
+  border-radius: 8px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140.5%;
+  letter-spacing: 0.08em;
+}

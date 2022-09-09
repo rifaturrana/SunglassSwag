@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-side">
+        <a href="../../home.html">
+          <!-- TODO: Add Logo -->
+          <img src="../../images/logo-modified.png" width="50" alt="" />
+        </a>
+      </div>
+      <nav>
+        <div class="first-ul">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="../../home.html" class="navbar-link">Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../SingleProduct/singleProduct.html" class="navbar-link"
+                >Single Product</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="../Checkout/checkout.html" class="navbar-link"
+                >Checkout
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../Register/register.html" class="navbar-link"
+                >Registration
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../Contact/contact.html" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="second-ul">
+          <ul class="action-list">
+            <li>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-user-large"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-moon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="login-container" style="margin-left: 150px">
+        <div class="login-area">
+          <h3>REGISTER TO SUNGLASS-SWAG</h3>
+          <form class="login-items">
+            <label htmlFor="name">First Name</label>
+            <input
+              type="text"
+              class="login"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+            <label htmlFor="name">Last Name</label>
+            <input
+              type="text"
+              class="login"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+            <label htmlFor="name">Date of Birth</label>
+            <input
+              type="datetime-local"
+              class="login"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              class="login"
+              name="email"
+              placeholder="your-email@gmail.com"
+              required
+            />
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              class="login"
+              name="password"
+              id=""
+              placeholder="Enter password"
+              required
+            />
+            <input type="submit" class="login-btn" value="Register" />
+          </form>
+        </div>
+      </div>
+
+      <div
+        class="login-container"
+        style="
+          background-image: url('../../images/loginback.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="login-area">
+          <h3>WELCOME TO SUNGLASS-SWAG</h3>
+          <form class="login-items">
+            <label htmlFor="username">Email</label>
+            <input
+              type="email"
+              class="login"
+              name="email"
+              placeholder="your-email@gmail.com"
+              required
+            />
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              class="login"
+              name="password"
+              placeholder="Your Password"
+              required
+            />
+            <input type="submit" class="login-btn" value="Login" />
+          </form>
+          <p class="p">
+            New to SG?
+            <a class="a" href="register.html">Create an Account</a>
+          </p>
+          <p class="p">
+            Forgot password? <a href="#" class="a">Reset Password</a>
+          </p>
+          <div class="social-login-container">
+            <p class="prompt">or</p>
+            <div class="social-login">
+              <button class="google-signin">
+                <i class="fa-brands fa-google"></i> Login with Google
+              </button>
+              <button class="github-signin">
+                <i class="fa-brands fa-github"></i>Login with Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

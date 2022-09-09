@@ -1,0 +1,244 @@
+/* HomePage */
+button {
+  border-radius: 8px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140.5%;
+  letter-spacing: 0.08em;
+}
+h3,
+h2,
+h1,
+h4,
+h5,
+h6,
+legend {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+
+  line-height: 23px;
+
+  letter-spacing: 1.5px;
+}
+
+body {
+  box-sizing: border-box;
+  /* background-color: aqua; */
+  background-color: #f3f5f7;
+}
+.new {
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: rgb(79, 202, 255);
+  color: black;
+}
+.header {
+  /* position: fixed; */
+  height: 110px;
+
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  display: flex;
+}
+.logo-side img {
+  margin-top: 50%;
+}
+nav {
+  align-self: center;
+
+  display: flex;
+  align-items: center;
+  width: auto;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.second-ul {
+  margin-left: 500px;
+}
+li {
+  padding: 20px;
+}
+li a,
+li button,
+a {
+  text-decoration: none;
+  color: #2d2f30;
+  text-transform: uppercase;
+  padding: 3px;
+  transition: all 0.5s;
+  font-family: "Poppins";
+  font-style: bold;
+  font-weight: bolder;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+nav li a:active {
+  background-color: yellow;
+}
+li a:hover,
+a:hover,
+li button:hover {
+  text-decoration: none;
+  color: #ffff;
+  background-color: royalblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.categories {
+  /* padding: 20px; */
+
+  display: flex;
+  height: 480px;
+  width: 100%;
+  justify-content: space-around;
+}
+.ctype {
+  width: 400px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.categories-button {
+  margin-top: 260px;
+  margin-left: 30%;
+  width: 150px;
+  text-align: center;
+  padding: 13px;
+}
+
+.filter-list {
+  width: 600px;
+  margin-left: 30%;
+}
+
+.products {
+  display: flex;
+}
+.single-product {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 33px;
+}
+.ad {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.add-item {
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 280px;
+  width: 40%;
+}
+.special {
+  display: flex;
+}
+
+.services {
+  display: flex;
+  padding: 5px;
+}
+.single-service {
+  box-shadow: 2px 7px #99ffff;
+  display: flex;
+  background-color: beige;
+  padding: 15px;
+  margin-right: 10px;
+}
+.clients-say {
+  position: relative;
+  background-image: url("../../images/client3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.clients {
+  position: absolute;
+  top: 70%;
+
+  justify-content: space-evenly;
+  display: flex;
+}
+.img-name {
+  display: flex;
+}
+.single-client {
+  border-radius: 6px;
+  padding: 10px;
+  width: 35%;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-us {
+  margin-top: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.contact-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-side1 {
+  padding: 15px;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contact-way {
+  margin: 30px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+}
+.footer {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.footer-container {
+  margin: 0 auto;
+  padding: 2px;
+  margin-top: 50px;
+  width: 500px;
+}
+.media {
+  margin: 15px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+
+.single-product:nth-child(even) {
+  background-color: antiquewhite;
+}
+
+.single-product:nth-child(odd) {
+  background-color: #eebdea;
+}
+
+/* SingleProduct */

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@300&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-side">
+        <a href="../../home.html">
+          <!-- TODO: Add Logo -->
+          <img src="../../images/logo-modified.png" width="50" alt="" />
+        </a>
+      </div>
+      <nav>
+        <div class="first-ul">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="../../home.html" class="navbar-link">Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../SingleProduct/singleProduct.html" class="navbar-link"
+                >Single Product</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="../Checkout/checkout.html" class="navbar-link"
+                >Checkout
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../Register/register.html" class="navbar-link"
+                >Registration
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../Contact/contact.html" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="second-ul">
+          <ul class="action-list">
+            <li>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-user-large"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-moon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="shopping-cart">
+          <h3>Shopping Cart</h3>
+          <div class="title">
+            <div class="prod"><h5>Product</h5></div>
+            <div class="sqp">
+              <h5 style="margin-right: 100px">Color</h5>
+              <h5 style="margin-right: 100px">Quantity</h5>
+              <h5>Price</h5>
+            </div>
+          </div>
+          <hr />
+          <div class="title">
+            <div class="prod">
+              <img src="../../images/p12.png" width="100px" alt="" />
+            </div>
+            <div class="sqp">
+              <h5 style="margin-right: 100px">Black</h5>
+              <h5 style="margin-right: 100px">2</h5>
+              <h5>$70</h5>
+            </div>
+          </div>
+          <div class="title">
+            <div class="prod">
+              <img src="../../images/p12.png" width="100px" alt="" />
+            </div>
+            <div class="sqp">
+              <h5 style="margin-right: 100px">Black</h5>
+              <h5 style="margin-right: 100px">2</h5>
+              <h5>$70</h5>
+            </div>
+          </div>
+          <div class="title">
+            <div class="prod">
+              <img src="../../images/p12.png" width="100px" alt="" />
+            </div>
+            <div class="sqp">
+              <h5 style="margin-right: 100px">Black</h5>
+              <h5 style="margin-right: 100px">2</h5>
+              <h5>$70</h5>
+            </div>
+          </div>
+          <hr />
+          <div>
+            <h5 style="margin-left: 70%">Total-Price: $210</h5>
+          </div>
+        </div>
+        <div class="paymentinfo">
+          <h3>Payment Info.</h3>
+
+          <div class="method">
+            <h4>Payment Method</h4>
+            <input type="radio" id="bkash" name="fav_language" value="HTML" />
+            <label for="bkash">Bkash</label><br />
+            <input type="radio" id="nagad" name="fav_language" value="CSS" />
+            <label for="nagad">Nagad</label><br />
+          </div>
+          <div class="number">
+            <p for="">Phone</p>
+            <input
+              type="text"
+              style="width: 100%; height: 30px; border-radius: 4px"
+            />
+          </div>
+          <div class="number">
+            <p for="">OTP</p>
+            <input
+              type="text"
+              style="width: 100%; height: 30px; border-radius: 4px"
+            />
+          </div>
+          <div>
+            <button
+              style="
+                padding: 10px;
+                margin-top: 10px;
+                background-color: #b3e140;
+                margin-left: 40%;
+              "
+            >
+              Checkout
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="logo">
+          <img
+            src="../../images/logo.png"
+            width="200"
+            style="margin-left: 140px; margin-top: 20px"
+            alt=""
+          />
+        </div>
+        <div class="social" style="display: flex; margin-left: 180px">
+          <div class="media">
+            <i class="fa-brands fa-facebook fa-lg"></i>
+          </div>
+          <div class="media">
+            <i class="fa-brands fa-instagram fa-lg"></i>
+          </div>
+
+          <div class="media"><i class="fa-brands fa-youtube fa-lg"></i></div>
+        </div>
+        <div class="copy">
+          <p class="copyright" style="text-align: center; color: black">
+            &copy; 2022 <a href="#" class="copyright-link">codewithRnA</a>. All
+            Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
